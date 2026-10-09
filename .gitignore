@@ -1,3 +1,5 @@
 node_modules
 # Keep environment variables out of version control
 .env
+# ...except the front-end's, which only sets the dev server port (no secrets)
+!frontend/.env
